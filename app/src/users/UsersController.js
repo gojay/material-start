@@ -94,7 +94,6 @@ function UsersController( usersService, $mdSidenav, $mdBottomSheet, $log ) {
 }
 
 export default [
-    'usersService', '$mdSidenav', '$mdBottomSheet', '$log',
-    UsersController
-  ];
-
+  'usersService', '$mdSidenav', '$mdBottomSheet', '$log',
+  UsersController
+];

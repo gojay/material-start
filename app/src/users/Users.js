@@ -4,8 +4,9 @@ const URL_ICON_SHARE   = 'assets/svg/share.svg';
 
 // Load the custom app ES6 modules
 
-import UsersController from 'users/UsersController'
-import UsersService    from 'users/UsersDataservice'
+// import UsersController from 'users/UsersController'
+import UsersController from 'users/UsersController.class'
+import UsersService    from 'users/UsersDataservice.class'
 
 import { ExternalLogger } from 'utils/LogDecorator';
 
